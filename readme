@@ -1,0 +1,32 @@
+# Face Skin Diseases Classification
+
+This project focuses on the classification of various face skin diseases using machine learning techniques. The workflow includes data preprocessing, model training, evaluation, and visualization of results.
+
+## Project Structure
+
+- `requirements.txt`  
+  List of Python dependencies required to run the project.
+
+
+- `final_result/`  
+  Contains all results, reports, and visualizations:
+  - `auc_values.csv`, `average_precision_values.csv`: Model performance metrics.
+  - `class_distribution.csv`, `class_distribution_comparison.png`: Class distribution analysis.
+  - `classification_report.txt`: Detailed classification report.
+  - `confusion_matrix.csv`, `confusion_matrix.png`: Confusion matrix data and visualization.
+  - `model_accuracy.png`, `model_loss.png`: Training accuracy and loss plots.
+  - `model_architecture.png`, `model_architecture.txt`: Model architecture visualization and summary.
+  - `model_metrics_summary.json`: Summary of model metrics.
+  - `precision_recall_curve_*.png`: Precision-recall curves for each disease class.
+
+- `scripts/`  
+  Contains scripts for data processing, model training, evaluation, and visualization.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- Install dependencies:
+  ```sh
+  pip install -r requirements.txt
