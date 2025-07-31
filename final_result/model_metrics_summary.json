@@ -1,0 +1,14 @@
+{
+    "test_accuracy": 0.6205357313156128,
+    "test_loss": 0.9576032757759094,
+    "number_of_classes": 5,
+    "class_names": [
+        "acne",
+        "eksim",
+        "herpes",
+        "panu",
+        "rosacea"
+    ],
+    "total_test_samples": 225,
+    "batch_size": 32
+}

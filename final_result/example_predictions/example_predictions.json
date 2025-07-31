@@ -1,0 +1,62 @@
+[
+    {
+        "true_class": "acne",
+        "predicted_class": "acne",
+        "confidence": 57.26774978637695,
+        "all_confidences": {
+            "acne": 57.26774978637695,
+            "eksim": 2.7069034576416016,
+            "herpes": 11.669004440307617,
+            "panu": 14.056253433227539,
+            "rosacea": 14.300086975097656
+        }
+    },
+    {
+        "true_class": "eksim",
+        "predicted_class": "rosacea",
+        "confidence": 57.14372253417969,
+        "all_confidences": {
+            "acne": 0.29464101791381836,
+            "eksim": 26.928955078125,
+            "herpes": 12.671867370605469,
+            "panu": 2.9608194828033447,
+            "rosacea": 57.14372253417969
+        }
+    },
+    {
+        "true_class": "herpes",
+        "predicted_class": "herpes",
+        "confidence": 52.08241271972656,
+        "all_confidences": {
+            "acne": 0.4413112998008728,
+            "eksim": 40.14799499511719,
+            "herpes": 52.08241271972656,
+            "panu": 0.13941185176372528,
+            "rosacea": 7.188870906829834
+        }
+    },
+    {
+        "true_class": "panu",
+        "predicted_class": "panu",
+        "confidence": 76.23747253417969,
+        "all_confidences": {
+            "acne": 7.945043563842773,
+            "eksim": 4.283570766448975,
+            "herpes": 8.32973575592041,
+            "panu": 76.23747253417969,
+            "rosacea": 3.204164981842041
+        }
+    },
+    {
+        "true_class": "rosacea",
+        "predicted_class": "rosacea",
+        "confidence": 67.67261505126953,
+        "all_confidences": {
+            "acne": 0.9782832860946655,
+            "eksim": 9.153467178344727,
+            "herpes": 7.8877105712890625,
+            "panu": 14.307917594909668,
+            "rosacea": 67.67261505126953
+        }
+    }
+]
